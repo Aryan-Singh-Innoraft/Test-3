@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body a {
+    text-decoration: none;
+}
+
+body li {
+    list-style: none;
+}
+
+span {
+    display: block;
+}
+
+.logo-wrapper {
+    width: 200px;
+    padding-right: 20px;
+}
+
+.logo-wrapper img {
+    max-width: 100%;
+}
+
+.navbar-lists {
+    border-left: 1px solid rgba(0, 0, 0, 0.342);
+}
+
+.navbar-lists li a {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+.navbar-lists li{
+    border-bottom: 3px solid white;
+    transition: border-bottom 0.3s ease;
+}
+.navbar-lists li:hover{
+    border-bottom: 3px solid #4d8dda;
+}
+
+.color-p {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.hover-blue{
+    transition: color 0.3s ease;
+}
+
+.hover-blue:hover{
+    color: #4d8dda;
+}
+
+.contact {
+    margin: auto 10px auto 30px;
+}
+
+.contact a {
+    color: black;
+    display: inline-block;
+    font-weight: 700;
+
+}
+
+.before-icon::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("./assets/images/download\ \(1\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.button-navbar {
+    margin: auto 0;
+
+}
+
+.basic-button {
+    background-color: #4d8dda;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.basic-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-whitee {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.button-whitee:hover {
+    background-color: #4d8dda;
+}
+
+.after-icon::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("./assets/images/download\ \(13\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(1);
+}
+
+.after-icon-black::after{
+    filter: none;
+    
+}
+
+.after-icon-black:hover::after{
+    filter: invert(1);
+}
+
+.big-arrow::after{
+    width: 20px;
+    height: 20px;
+    right: -20%;
+}
+
+.big-arrow:hover::after{
+    filter: none;
+}
+.banner-page {
+    background-color: #fcfcfd;
+    height: 550px;
+    position: relative;
+}
+
+.banner-wrapper {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.banner-wrapper h1 {
+    font-size: 4rem;
+}
+
+.holding-page {
+    height: 700px;
+    /* background-color: red; */
+}
+
+.holding-page .container {
+    height: 100%;
+}
+
+.holding-page .holding-wrapper {
+
+    height: 100%;
+    background-image: url("./assets/images/Group-1024-1.png");
+    background-position: start;
+    background-size: conver;
+    background-repeat: no-repeat;
+}
+
+.services-page {
+    background-color: #fcfcfd;
+
+}
+
+.services-wrapper {
+    padding: 120px 0;
+    text-align: center;
+
+}
+
+.services-wrapper h2 {
+    font-size: 3rem;
+
+}
+
+.services-wrapper h2 span {
+    margin-top: 10px;
+}
+
+.services-wrapper p {
+    font-size: 1.2rem;
+
+}
+
+.services-cards .services-card .bottom-body p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.location-card-wrapper {
+    background-color: white;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: start;
+}
+
+.location-card-wrapper h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.location-card-wrapper p {
+    margin-top: 0;
+}
+
+.location-card-wrapper a {
+    color: black;
+}
+
+.individual-service-wrapper .left-section h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.services-lists li {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+    padding: 0 40px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.services-lists li::before {
+    background-image: url("./assets/images/download\ \(12\).svg");
+    top: 25%;
+
+}
+
+.individual-service-wrapper .left-section {
+    padding: 80px 50px 80px 0;
+}
+
+.individual-service-wrapper .left-section p {
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.individual-service-wrapper .right-section .image-wrapper {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.individual-service-wrapper .right-section {
+    position: relative;
+
+}
+
+.individual-service-wrapper .right-section .image-wrapper img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.individual-service-wrapper:nth-of-type(2) {
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+
+.individual-service-wrapper:nth-of-type(2) .right-section .image-wrapper {
+    right: 0;
+}
+
+.individual-service-wrapper:nth-of-type(2) .left-section {
+    padding: 80px 0;
+    padding-left: 60px;
+
+}
+
+.individual-service-wrapper .left-section h2 {
+    font-size: 3rem;
+
+}
+
+/* .individual service section ends  */
+
+/* free delivery banner starts */
+.free-delivery-banner {
+    height: 800px;
+    background-image: url("./assets/images/Rectangle-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.free-delivery-banner .container {
+    height: 100%;
+}
+
+.free-delivery-wrapper h2 {
+    font-size: 4rem;
+    color: white;
+}
+
+.free-delivery-wrapper p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.free-delivery-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* free delivery banner ends  */
+
+/* order-section-starts */
+
+.order-page {
+    background-color: #e3e3e434;
+}
+
+.order-wrapper {
+    padding: 80px 0;
+}
+
+.order-wrapper h2 {
+    font-size: 2.5rem;
+}
+
+
+.order-section-left-wrapper .person-name::before {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url("./assets/images/Rectangle-265.png");
+}
+
+.order-section-left-wrapper {
+    padding-right: 80px;
+}
+
+.order-section-left-wrapper .person-name {
+    padding-left: 140px;
+    margin: 50px 0;
+}
+
+.fs-1-2rem {
+    font-size: 1.2rem;
+
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.order-contact {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.order-contact::before {
+    width: 30px;
+    height: 30px;
+}
+
+.order-form input {
+    background-color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px 0;
+
+}
+
+.order-form label {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.order-form input::placeholder {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.order-form button {
+    width: 40%;
+    border: none;
+
+}
+/* order-section ends  */
+
+/* footer starts here  */
+.footer-section {
+    background-color: #2a3749;
+    padding: 100px 0;
+    color: white;
+}
+
+
+
+.left-footer-section-wrapper p {
+
+    font-size: 1.2rem;
+    width: 70%;
+    font-weight: 300;
+}
+
+.footer-contact {
+    color: white;
+    font-size: 2rem;
+}
+
+.footer-contact::before {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-email {
+    font-weight: 300;
+    color: white;
+}
+
+.right-footer-section-wrapper h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+.footer-email-input input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 20px;
+    border: none;
+    outline: none;
+}
+
+.footer-email-input input::placeholder {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.mail-img{
+    right: 20px;
+   
+}
+
+.fs-0-9rem {
+    font-size: 0.9rem;
+}
+
+.fs-0-8rem {
+    font-size: 0.8rem;
+}
+
+.footer-email-input:after {
+    width: 30px;
+    height: 30px;
+    right: 5%;
+    background-image: url("./assets/images/download\ \(9\).svg");
+    filter: none;
+
+
+}
+
+.footer-card h6{
+   font-weight: 700;
+}
+.footer-lists li{
+    margin: 20px 0;
+}
+
+.footer-lists li a{
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.footer-lists li a:hover{
+    color: #4d8dda;
+}
+
+/* footer ends here  */
+
+
+
