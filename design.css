@@ -305,6 +305,7 @@ span {
 
 /* free delivery banner starts */
 .free-delivery-banner {
+    margin-top: 80px;
     height: 800px;
     background-image: url("./assets/images/Rectangle-1.png");
     background-position: center;
