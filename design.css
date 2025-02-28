@@ -177,8 +177,8 @@ span {
 
     height: 100%;
     background-image: url("./assets/images/Group-1024-1.png");
-    background-position: start;
-    background-size: conver;
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
